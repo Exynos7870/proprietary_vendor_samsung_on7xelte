@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000041.tlbin:system/app/mcRegistry/ffffffff000000000000000000000041.tlbin \
     vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000045.tlbin:system/app/mcRegistry/ffffffff000000000000000000000045.tlbin \
     vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
-    vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
     vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
     vendor/samsung/on7xelte/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
@@ -267,6 +266,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
-
 # Create Mali links for Vulkan and OpenCL
 PRODUCT_PACKAGES += libGLES_mali

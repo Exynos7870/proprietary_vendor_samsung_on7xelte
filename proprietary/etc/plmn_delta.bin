@@ -3,12 +3,10 @@
 238063"3
 
 24007Tele2 SE"Tele2 SE
-
-25005TELE2"TELE2
-
-25011Yota"Yota
 (
 28001CYTAMOBILE-VODAFONE"CYTAVODA
+
+25011Yota"Yota
 
 30237Fido"Fido
 
@@ -67,6 +65,8 @@ W 2000 PCS
 40101	BeelineKZ"Beeline
 
 40107	ALTEL 4G "	ALTEL-kz 
+
+40177NEO-KZ"NEO
 
 40211
 BTB-Mobile"B-Mobile
@@ -128,14 +128,32 @@ BTB-Mobile"B-Mobile
 40443Vodafone IN"Vodafone IN
 
 40445Airtel"Airtel
+#
+40446Vodafone IN"Vodafone IN
 
 40449Airtel"Airtel
+
+40450Reliance"Reliance
+
+40452Reliance"Reliance
+#
+40460Vodafone IN"Vodafone IN
+
+40467Reliance"Reliance
 
 40468Dolphin"Dolphin
 
 40469Dolphin"Dolphin
 
 40470Airtel"Airtel
+#
+40484Vodafone IN"Vodafone IN
+
+40485Reliance"Reliance
+#
+40486Vodafone IN"Vodafone IN
+#
+40488Vodafone IN"Vodafone IN
 
 40490Airtel"Airtel
 
@@ -200,6 +218,20 @@ $
 405039TATA DOCOMO"TATA DOCOMO
 $
 405040TATA DOCOMO"TATA DOCOMO
+$
+405041TATA DOCOMO"TATA DOCOMO
+$
+405042TATA DOCOMO"TATA DOCOMO
+$
+405043TATA DOCOMO"TATA DOCOMO
+$
+405044TATA DOCOMO"TATA DOCOMO
+$
+405045TATA DOCOMO"TATA DOCOMO
+$
+405046TATA DOCOMO"TATA DOCOMO
+$
+405047TATA DOCOMO"TATA DOCOMO
 
 40551Airtel"Airtel
 
@@ -212,8 +244,26 @@ $
 40555Airtel"Airtel
 
 40556Airtel"Airtel
+#
+40566Vodafone IN"Vodafone IN
+#
+40567Vodafone IN"Vodafone IN
 
 40585AIRCEL"AIRCEL
+$
+405750Vodafone IN"Vodafone IN
+$
+405751Vodafone IN"Vodafone IN
+$
+405752Vodafone IN"Vodafone IN
+$
+405753Vodafone IN"Vodafone IN
+$
+405754Vodafone IN"Vodafone IN
+$
+405755Vodafone IN"Vodafone IN
+$
+405756Vodafone IN"Vodafone IN
 
 405800AIRCEL"AIRCEL
 
@@ -295,6 +345,8 @@ $
 
 405839Videocon"Videocon
 
+405840Videocon"Videocon
+
 405841Videocon"Videocon
 
 405842Videocon"Videocon
@@ -354,8 +406,8 @@ $
 41003Ufone"Ufone
 
 41006Telenor"Telenor
-
-41007Jazz"Jazz
+
+41007Warid"Warid
 
 41240AREEBA"AREEBA
 
@@ -374,6 +426,8 @@ $
 41601zain JO"zain JO
 
 41603Umniah"Umniah
+
+41677	Orange JO"	Orange JO
 
 41702	MTN Syria"	MTN Syria
 %
@@ -395,8 +449,8 @@ Zain Iraq "	Zain Iraq
 41845mobitel"mobitel
 
 41902zain KW"zain KW
-
-41903Ooredoo"Ooredoo
+
+41903WATANIYA"WATANIYA
 
 41904VIVA"VIVA
 
@@ -451,8 +505,8 @@ Zain Iraq "	Zain Iraq
 43612	INDIGO-3G"INDIGO-T
 
 43701	BeelineKG"	BeelineKG
-)
-45001Samsung Test Bed_Test"Samsung
+$
+45001Samsung Test Bed"Samsung
 #
 45201VN MobiFone"VN MobiFone
 %
@@ -472,8 +526,6 @@ EVNTelecom
 
 45609
 Beeline KH"Beeline
-
-45611Seatel"Seatel
 &
 45618CAMBODIASHINAWATRA"CAMSHIN
 
@@ -500,18 +552,20 @@ Beeline KH"Beeline
 50218U Mobile"U Mobile
 
 50219	MY CELCOM"	MY CELCOM
+#
+50503Vodafone AU"Vodafone AU
 
 505063"3
 
 50508One.Tel"One.Tel
-
-51009	Smartfren"	Smartfren
+
+51001INDOSAT"INDOSAT
 
 51010	TELKOMSEL"	TELKOMSEL
 
 51011XL"XL
-
-51028	Smartfren"	Smartfren
+
+51021INDOSAT"INDOSAT
 
 51501ISLACOM"ISLACOM
 
@@ -591,6 +645,8 @@ NE TELECEL"TELECEL
 61602TELECEL BENIN"TLCL-BEN
  
 61603BJ BENINCELL"BENCELL
+
+61701Orange"Orange
 
 61702MTML"MTML
 
@@ -640,6 +696,8 @@ $
 62907WARID RC"WARID RC
 
 63001Vodacom"Vodacom
+
+63086DRC and CCT"CCT
 
 63089CD OASIS"OASIS
 
@@ -664,6 +722,8 @@ SOMTELESOM"TELESOM
 63782Telsom"Telsom
 
 63903Airtel"CELTEL
+
+63907Orange"GSMTKL
 
 63905Yu"Yu
 
@@ -733,5 +793,8 @@ Vodacom-LS
 !
 65501
 Vodacom-SA"
-Vodacom-SA
+Vodacom-SA
+
+65507
+RSA CELL C"CellC
 GGSM Delta
