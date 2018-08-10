@@ -56,12 +56,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/samsung/on7xelte/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/camera.vendor.universal7870.so:system/lib/hw/camera.vendor.universal7870.so \
-    vendor/samsung/on7xelte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
-    vendor/samsung/on7xelte/proprietary/lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
-    vendor/samsung/on7xelte/proprietary/lib/libHpr_RecGAE_cvFeature_v1.0.so:system/lib/libHpr_RecGAE_cvFeature_v1.0.so \
-    vendor/samsung/on7xelte/proprietary/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
     vendor/samsung/on7xelte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/on7xelte/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
     vendor/samsung/on7xelte/proprietary/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
@@ -95,11 +91,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
+    vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.MPEG2.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG2.Decoder.so \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
+    vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:system/lib/omx/libOMX.Exynos.VP9.Decoder.so \
+    vendor/samsung/on7xelte/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:system/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
+    vendor/samsung/on7xelte/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:system/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
+    vendor/samsung/on7xelte/proprietary/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
+    vendor/samsung/on7xelte/proprietary/lib64/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Encoder.so \
+    vendor/samsung/on7xelte/proprietary/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so:system/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so \
+    vendor/samsung/on7xelte/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    vendor/samsung/on7xelte/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    vendor/samsung/on7xelte/proprietary/lib64/omx/libOMX.Exynos.VP9.Decoder.so:system/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
     vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/AzControlParams_SPEAKER.txt:system/vendor/etc/nxp/AzControlParams_SPEAKER.txt \
     vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt:system/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt \
     vendor/samsung/on7xelte/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
@@ -253,18 +256,27 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/setfile_4h5yc.bin:system/vendor/firmware/setfile_4h5yc.bin \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin \
     vendor/samsung/on7xelte/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/soundfx/libLifevibes_lvverx.so:system/vendor/lib/soundfx/libLifevibes_lvverx.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/soundfx/libLifevibes_lvvetx.so:system/vendor/lib/soundfx/libLifevibes_lvvetx.so \
     vendor/samsung/on7xelte/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/samsung/on7xelte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
+    vendor/samsung/on7xelte/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
+    vendor/samsung/on7xelte/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \
     vendor/samsung/on7xelte/proprietary/lib/libOpenCv.so:system/lib/libOpenCv.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/samsung/on7xelte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/on7xelte/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
+    vendor/samsung/on7xelte/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
+    vendor/samsung/on7xelte/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
+    vendor/samsung/on7xelte/proprietary/lib64/libprotobuf-cpp-fooo.so:system/lib64/libprotobuf-cpp-fooo.so \
+    vendor/samsung/on7xelte/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
+    vendor/samsung/on7xelte/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
+    vendor/samsung/on7xelte/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
+    vendor/samsung/on7xelte/proprietary/lib64/libwrappergps.so:system/lib64/libwrappergps.so
+
 # Create Mali links for Vulkan and OpenCL
 PRODUCT_PACKAGES += libGLES_mali
