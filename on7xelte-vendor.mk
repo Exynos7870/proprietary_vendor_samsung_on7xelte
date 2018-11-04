@@ -287,3 +287,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/samsung/on7xelte/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so
+    
+## OMX old BSP
+PRODUCT_COPY_FILES += \
+    vendor/samsung/on7xelte/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
+    vendor/samsung/on7xelte/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
+    vendor/samsung/on7xelte/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so
