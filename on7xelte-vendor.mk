@@ -282,3 +282,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
     vendor/samsung/on7xelte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     vendor/samsung/on7xelte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so
+
+## APTX
+PRODUCT_COPY_FILES += \
+    vendor/samsung/on7xelte/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/samsung/on7xelte/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so
