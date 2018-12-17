@@ -8,7 +8,7 @@ sleep 2
 
 # Make param link and change permission.
 if [ -e $PARAM_PATH ]; then
-	chown system.system $PARAM_PATH
+	chown root.system $PARAM_PATH
 	chmod 0660 $PARAM_PATH
 
 	# Remove if param link is exist.

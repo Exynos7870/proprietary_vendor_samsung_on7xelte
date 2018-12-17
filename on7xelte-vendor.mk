@@ -93,8 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
-    vendor/samsung/on7xelte/proprietary/vendor/firmware/bcm43438A1_V0062.0267.hcd:system/vendor/firmware/bcm43438A1_V0062.0267.hcd \
-    vendor/samsung/on7xelte/proprietary/vendor/firmware/bcm4343A0_V0071.0262.hcd:system/vendor/firmware/bcm4343A0_V0071.0262.hcd \
+    vendor/samsung/on7xelte/proprietary/vendor/firmware/bcm43438A1_V0068.0286.hcd:system/vendor/firmware/bcm43438A1_V0068.0286.hcd \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/setfile_4h5yc.bin:system/vendor/firmware/setfile_4h5yc.bin \
